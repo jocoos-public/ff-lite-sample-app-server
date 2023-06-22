@@ -54,7 +54,7 @@ The integration is for transforming 1 to 2 in your app server.
 Follow these steps if you would like to test this sample right away.
 
 1. Goto FlipFlop user console and sign up to become a FlipFlop user
-    * If you reside in northeast asia <https://user-console.lite.flipflop.tv>
+    * If you reside in northeast asia <https://console.lite.flipflop.tv>
     * Service for southeast Asia will be available soon
 
       ```text
@@ -110,8 +110,9 @@ Follow these steps if you would like to test this sample right away.
       $ npm run start
       ```
 
-5. Install the FlipFlop SDK sample app of your choice 
-    * Link to Android and iOS FlipFlop Lite SDK sample app repository will be added soon
+5. Install the FlipFlop SDK sample app of your choice
+    * [FlipFlop Lite SDK Android Sample App](https://github.com/jocoos-public/ff-lite-sample-sdk-android)
+    * Link to iOS FlipFlop Lite SDK sample app repository will be added soon
 
 ## Highlights for Understanding the Sample App Server
 
