@@ -11,7 +11,7 @@ This example is focused on helping you learn about FlipFlop's API and functional
 Since apps can have different features, requirements, and policies, FlipFlop has been designed to be as convenient and flexible as possible.
 If you understand how FlipFlop works through this example, I believe you will be able to modify the approach shown in this example to suit your preferences and use it in the desired form.
 
-Please look for `IMPORTNT_TIPS` in the source code for helpful information.
+Please look for `IMPORTANT_TIPS` in the source code for helpful information.
 
 ## Scope of the Application
 
