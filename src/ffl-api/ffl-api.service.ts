@@ -160,7 +160,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/stream-keys/${+id}`,
+      url: `/stream-keys/${id}`,
     });
     return res.data;
   }
@@ -192,7 +192,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/stream-keys/${+id}`,
+      url: `/stream-keys/${id}`,
       body: JSON.stringify(updateStreamKeyDto),
     });
     return res.data;
@@ -206,7 +206,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/stream-keys/${+id}/reissue`,
+      url: `/stream-keys/${id}/reissue`,
     });
     return res.data;
   }
@@ -241,7 +241,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/video-rooms/${+id}`,
+      url: `/video-rooms/${id}`,
     });
     return res.data;
   }
@@ -270,7 +270,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/video-rooms/${+id}`,
+      url: `/video-rooms/${id}`,
     });
     return;
   }
