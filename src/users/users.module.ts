@@ -4,7 +4,7 @@ import { UsersController } from './users.controller';
 import { User, UserSchema } from './entities/user.schema';
 import { MongooseModule } from '@nestjs/mongoose';
 import { JwtModule } from '@nestjs/jwt';
-import { FflApiModule } from 'src/ffl-api/ffl-api.module';
+import { FflApiModule } from '../ffl-api/ffl-api.module';
 
 @Module({
   imports: [

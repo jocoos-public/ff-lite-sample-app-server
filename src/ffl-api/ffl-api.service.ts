@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EnvVars } from 'src/env-vars';
+import { EnvVars } from '../env-vars';
 import { FFIssueGuestChatTokenDto, FFChatTokenDto } from './dto/chat.dto';
 import { FFPageDto } from './dto/common.dto';
 import { FFLoginDto } from './dto/login.dto';

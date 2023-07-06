@@ -5,8 +5,8 @@ import {
   FFPartUploadInfoDto,
   FFRequestUploadUrlsDto,
   FFUpdateVideoPostDto,
-} from 'src/ffl-api/dto/video-post.dto';
-import { FflApiService } from 'src/ffl-api/ffl-api.service';
+} from '../ffl-api/dto/video-post.dto';
+import { FflApiService } from '../ffl-api/ffl-api.service';
 import { Request } from 'express';
 
 @Injectable()

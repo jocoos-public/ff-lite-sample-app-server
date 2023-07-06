@@ -1,5 +1,5 @@
-import { FFAccessLevel } from 'src/ffl-api/dto/common.dto';
-import { FFVideoRoomType } from 'src/ffl-api/dto/video-room.dto';
+import { FFAccessLevel } from '../../ffl-api/dto/common.dto';
+import { FFVideoRoomType } from '../../ffl-api/dto/video-room.dto';
 
 export interface CreateVideoRoomDto {
   type: FFVideoRoomType;

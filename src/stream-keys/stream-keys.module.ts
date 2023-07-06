@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { StreamKeysService } from './stream-keys.service';
 import { StreamKeysController } from './stream-keys.controller';
-import { FflApiModule } from 'src/ffl-api/ffl-api.module';
+import { FflApiModule } from '../ffl-api/ffl-api.module';
 
 @Module({
   imports: [FflApiModule],

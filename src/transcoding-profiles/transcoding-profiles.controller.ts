@@ -8,7 +8,7 @@ import {
   Req,
 } from '@nestjs/common';
 import { TranscodingProfilesService } from './transcoding-profiles.service';
-import { FFGetTranscodingProfilesParams } from 'src/ffl-api/dto/transcoding-profile.dto';
+import { FFGetTranscodingProfilesParams } from '../ffl-api/dto/transcoding-profile.dto';
 import { Request } from 'express';
 
 @Controller('transcoding-profiles')

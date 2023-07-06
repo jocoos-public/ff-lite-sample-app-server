@@ -1,6 +1,6 @@
 import { ForbiddenException, Injectable } from '@nestjs/common';
-import { FFGetVideoRoomsParams } from 'src/ffl-api/dto/video-room.dto';
-import { FflApiService } from 'src/ffl-api/ffl-api.service';
+import { FFGetVideoRoomsParams } from '../ffl-api/dto/video-room.dto';
+import { FflApiService } from '../ffl-api/ffl-api.service';
 import { CreateVideoRoomDto } from './dto/create-video-room.dto';
 import { Request } from 'express';
 
