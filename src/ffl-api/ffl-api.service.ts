@@ -147,7 +147,7 @@ export class FflApiService {
         Authorization: this.credentials,
       },
       baseURL: this.baseUrl,
-      url: `/member/${appUserId}/stream-key`,
+      url: `/members/${appUserId}/stream-key`,
     });
     return res.data;
   }
