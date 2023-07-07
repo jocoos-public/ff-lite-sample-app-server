@@ -4,7 +4,7 @@ import { UpdateUserDto } from './dto/update-user.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { User } from './entities/user.schema';
 import { Model } from 'mongoose';
-import { FflApiService } from 'src/ffl-api/ffl-api.service';
+import { FflApiService } from '../ffl-api/ffl-api.service';
 import { Request } from 'express';
 @Injectable()
 export class UsersService {

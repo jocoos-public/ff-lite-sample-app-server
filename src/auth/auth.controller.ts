@@ -7,7 +7,7 @@ import {
   Req,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { Public } from 'src/decorators/public.decorator';
+import { Public } from '../decorators/public.decorator';
 import { Request } from 'express';
 @Controller('auth')
 export class AuthController {

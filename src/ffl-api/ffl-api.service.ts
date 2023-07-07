@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EnvVars } from 'src/env-vars';
+import { EnvVars } from '../env-vars';
 import { FFIssueGuestChatTokenDto, FFChatTokenDto } from './dto/chat.dto';
 import { FFPageDto } from './dto/common.dto';
 import { FFLoginDto } from './dto/login.dto';
@@ -147,7 +147,7 @@ export class FflApiService {
         Authorization: this.credentials,
       },
       baseURL: this.baseUrl,
-      url: `/member/${appUserId}/stream-key`,
+      url: `/members/${appUserId}/stream-key`,
     });
     return res.data;
   }
@@ -160,7 +160,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/stream-keys/${+id}`,
+      url: `/stream-keys/${id}`,
     });
     return res.data;
   }
@@ -192,7 +192,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/stream-keys/${+id}`,
+      url: `/stream-keys/${id}`,
       body: JSON.stringify(updateStreamKeyDto),
     });
     return res.data;
@@ -206,7 +206,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/stream-keys/${+id}/reissue`,
+      url: `/stream-keys/${id}/reissue`,
     });
     return res.data;
   }
@@ -241,7 +241,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/video-rooms/${+id}`,
+      url: `/video-rooms/${id}`,
     });
     return res.data;
   }
@@ -270,7 +270,7 @@ export class FflApiService {
         'Content-Type': 'application/json',
       },
       baseURL: this.baseUrl,
-      url: `/video-rooms/${+id}`,
+      url: `/video-rooms/${id}`,
     });
     return;
   }

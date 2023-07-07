@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { FFGetTranscodingProfilesParams } from 'src/ffl-api/dto/transcoding-profile.dto';
-import { FflApiService } from 'src/ffl-api/ffl-api.service';
+import { FFGetTranscodingProfilesParams } from '../ffl-api/dto/transcoding-profile.dto';
+import { FflApiService } from '../ffl-api/ffl-api.service';
 import { Request } from 'express';
 
 @Injectable()

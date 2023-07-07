@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { VideoRoomsService } from './video-rooms.service';
 import { CreateVideoRoomDto } from './dto/create-video-room.dto';
-import { FFGetVideoRoomsParams } from 'src/ffl-api/dto/video-room.dto';
+import { FFGetVideoRoomsParams } from '../ffl-api/dto/video-room.dto';
 import { Request } from 'express';
 
 @Controller('video-rooms')

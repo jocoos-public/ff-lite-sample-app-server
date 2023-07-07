@@ -12,7 +12,7 @@ import { StreamKeysService } from './stream-keys.service';
 import {
   FFGetStreamKeysParams,
   FFUpdateStreamKeyDto,
-} from 'src/ffl-api/dto/stream-key.dto';
+} from '../ffl-api/dto/stream-key.dto';
 import { Request } from 'express';
 
 @Controller('stream-keys')

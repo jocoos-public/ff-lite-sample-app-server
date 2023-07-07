@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common';
 import {
   FFGetStreamKeysParams,
   FFUpdateStreamKeyDto,
-} from 'src/ffl-api/dto/stream-key.dto';
-import { FflApiService } from 'src/ffl-api/ffl-api.service';
+} from '../ffl-api/dto/stream-key.dto';
+import { FflApiService } from '../ffl-api/ffl-api.service';
 import { Request } from 'express';
 
 @Injectable()

@@ -18,7 +18,7 @@ import {
   FFPartUploadInfoDto,
   FFRequestUploadUrlsDto,
   FFUpdateVideoPostDto,
-} from 'src/ffl-api/dto/video-post.dto';
+} from '../ffl-api/dto/video-post.dto';
 import { Request } from 'express';
 @Controller('video-posts')
 export class VideoPostsController {
