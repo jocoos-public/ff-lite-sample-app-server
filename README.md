@@ -1131,12 +1131,11 @@ Create a VideoChatRoom for a VideoRoom. Only the owner of the VideoRoom can call
   | - | - |
   | | |
 
+## Using Docker
 
+For now Dockerfile is provided in the project root for building a docker image for this sample app server for your convenience.
+Build the docker image and run the container. Do not forget to specify the env file or each env varaible values when running the container.
 
 ## TODO
 
-* call ffl member guest login api
-* ~~call ffl member create api on signup~~
-* ~~call ffl member login api on login~~
-* call ffl member update api on user update
-* callback 관련 API들 설정 추가
+- Add docker compose
