@@ -8,7 +8,9 @@ import { JwtService } from '@nestjs/jwt';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = app.get(ConfigService);
-  EnvVars.log(config);
+  // Following line is for dubugging purpose
+  // Uncomment line to output environment variables set by .env file
+  // EnvVars.log(config);
   const reflector = app.get(Reflector);
   const jwt = app.get(JwtService);
   app.useGlobalGuards(new AuthGuard(config, reflector, jwt));
