@@ -13,7 +13,6 @@ export class AuthService {
 
   async login(req: Request, username: string, pass: string): Promise<any> {
     const user = await this.usersService.findByUsername(req, username);
-    console.log(pass, user?.password);
     if (user?.password !== pass) {
       throw new UnauthorizedException();
     }

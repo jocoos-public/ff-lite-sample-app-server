@@ -13,7 +13,7 @@ import { FflApiModule } from '../ffl-api/ffl-api.module';
     JwtModule.registerAsync({
       imports: [ConfigModule],
       useFactory: async (config: ConfigService) => {
-        console.log('jwt secret:', config.get<string>(EnvVars.JWT_SECRET));
+
         return {
           global: true,
           secret: config.get<string>(EnvVars.JWT_SECRET),
